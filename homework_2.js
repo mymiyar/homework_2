@@ -1,17 +1,12 @@
-true// "кот" > "код"
-24 // ● "2" + 2 * "2"
-true// ● undefined == null
-false// ● undefined === null
-false// ● null == 0
-false // ● 2 > "3"
-1// ● null - false + true
-1// ● 1 / "l"
-6// ● "2" * "3"
-"9O"// ● 4 + 5 + "O"
-145// ● "l" + 4 + 5
-2// ● "4" - 2
-NaN// ● "4" - "4x"
-true// ● null == false
--Infinity// ● " -4 "/ 0 + 1
-1// ● null + 1
-NaN// ● undefined + null
+let i=0;
+let k=0
+for(let fly=1800; ; fly++, i++){
+    if(fly == 1961) {console.log(fly); 
+    break;}  
+}
+console.log(i);
+for(let age=1800; age<=2000; age = age+4, k++){
+        if(age % 4 == 0){
+            console.log(age);}
+    }
+console.log(k);
